@@ -1,0 +1,33 @@
+
+@media only screen and (min-width: 990px) {
+    /* NAVIGATION */
+.icon {
+    display: none;
+}
+
+.links {
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.links li a {
+    display: block;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+/* MENU */
+.menu-container {
+    flex-direction: row;
+    justify-content: center;
+}
+.one-menu-item {
+    height:  320px;
+}
+.one-menu-item img {
+    height: 205px;
+}
+}

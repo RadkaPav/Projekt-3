@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Radka Pavlišová -->
+<!-- radojka@seznam.cz -->
+<!-- Radka P. -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navigation container">
+        <button class="switch-mode">
+            <span>Light</span>
+            <span>Dark</span>
+            <span class="switch"></span>
+        </button>
+        <ul class="links" id="top">
+            <li><a href="#" class="link about">O nás</a></li>
+            <li><a href="#" class="link menu">Jídelní lístek</a></li>
+            <li><a href="#" class="link order">Objednávka</a></li>
+            <li><a href="#" class="link contact-us">Kontakt</a></li>
+        </ul>
+        <div class="icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- HERO SECTION -->
+    <header class="hero-section">
+        <h1>Restaurace Žofinka</h1>
+    </header>
+    <!-- ABOUT US -->
+    <section class="about-us container" id="about">
+        <h2>O nás</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, a laborum, aperiam nesciunt ullam ex temporibus
+            sapiente sit vero sunt explicabo molestias quae dicta rerum obcaecati cum nulla accusantium tempora. Lorem
+            ipsum, dolor sit amet consectetur adipisicing elit. Ullam temporibus, fugit corrupti inventore quisquam sint
+            incidunt porro odio ipsa earum magnam fugiat, delectus consequuntur nam accusantium minus rem! Repudiandae,
+            laboriosam?
+        </p>
+    </section>
+    <!-- MENU -->
+    <section class="menu-items container" id="menu">
+        <h2>Jídelní lístek</h2>
+        <div class="menu-container">
+            <!-- <div class="one-menu-item"></div> -->
+        </div>
+    </section>
+    <!-- ORDER -->
+    <section class="container order flex" id="order">
+        <h2>Objednávka</h2>
+        <p>Pro objednávku se musíte přihlásit.</p>
+        <form class="flex log-form">
+            <input type="password" placeholder="Zadejte heslo" class="password">
+            <input type="password" placeholder="Zadejte heslo znovu" class="confirm-password">
+            <input type="submit" value="Odeslat">
+        </form>
+        <div class="notification"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="container contact" id="contact-us">
+        <h2>Kontaktujte nás</h2>
+        <form action="" class="flex contact-form">
+            <div class="error red"></div>
+            <input type="email" placeholder="Zadejte e-mail" class="email">
+            <div class="counter"><span class="number-of-letters">0</span>/150</div>
+            <textarea cols="30" rows="10" placeholder="Zadejte zprávu..." class="message" maxlength="150"></textarea>
+            <input type="submit" value="Odeslat">
+        </form>
+    </section>
+    <!-- BUTTON -->
+    <a href="#" class="top">Nahoru</a>
+    <!-- FOOTER -->
+    <footer>
+        <p>© Radka Pavlišová 2024</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2179feac86.js" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
